@@ -1,0 +1,453 @@
+{
+ "url": "file:///tmp/clon-hotel-preciados-madrid/repo/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tiene?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Su web presenta ocho tipos: Skyline (dos estancias de 40 m2 y terraza de 28 m2), Corner Junior Suite (38 m²), Premium Plus con balcón (32 a "
+    },
+    {
+     "q": "¿Qué equipamiento tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen baño con secador de pelo, teléfono, TV vía satélite y por cable, radio, wifi de alta velocidad, minibar gratuito, cl"
+    },
+    {
+     "q": "¿Tienen restaurante?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "El hotel tiene el Café Varela, histórico café madrileño desde 1884, con cocina basada en la tradición gallega (verduras, carnes, pescados y "
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Hay parking en el propio hotel con servicio de aparcacoches; tiene coste por día (consulta la tarifa). Reservando en su web hay un 10% de de"
+    },
+    {
+     "q": "¿Tienen salones para reuniones?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Tiene salones en la planta baja con nombres de escritores: Carrere, Unamuno y Machado, que juntos forman el Salón Apolo de 127 m2. Disponen "
+    },
+    {
+     "q": "¿Hay servicio de lavandería?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "La conserjería atiende las 24 horas en español y en inglés. El room service atiende de 7:00h a 23:00h. La lavandería recoge la ropa de lunes"
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Está en la calle Preciados 37, esquina con la plaza de Santo Domingo, 28013 Madrid, a 5 minutos a pie de la Puerta del Sol. Las paradas de m"
+    },
+    {
+     "q": "¿Cómo llego desde el aeropuerto?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Según su web, desde el aeropuerto el taxi tarda unos 25 minutos y el metro unos 45 minutos. En coche propio, la web describe la ruta por la "
+    },
+    {
+     "q": "¿Qué ventajas tiene reservar en la web?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Su web indica estas ventajas al reservar en ella: minibar y wifi gratuitos, 10% de descuento en el parking, early check-in y late check-out "
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en el motor de reservas del hotel (botón Reservar) o en el teléfono de reservas 914544400 y en preciadoshotel@preciadoshotel"
+    },
+    {
+     "q": "¿Cuál es el teléfono?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono (+34) 914544400; correo preciadoshotel@preciadoshotel.com; comercial: comercial@preciadoshotel.com."
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Su aviso legal indica que la titularidad del sitio web la ostenta HOPREVIP, S.L. (NIF B82978172)."
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 914 544 400 · preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en el motor de reservas del hotel (botón Reservar) o en el teléfono de reservas 914544400 y en preciadoshotel@preciadoshotel"
+    },
+    {
+     "q": "¿Admiten mascotas?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 914 544 400 · preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 914 544 400 · preciadoshotel@preciadoshotel.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tiene?",
+    "¿Hay parking?",
+    "¿Dónde está?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "intro_k",
+    "send",
+    "room0_n",
+    "room1_n",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quines habitacions té?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "La seva web presenta vuit tipus: Skyline (dues estances de 40 m2 i terrassa de 28 m2), Corner Junior Suite (38 m²), Premium Plus amb balcó ("
+    },
+    {
+     "q": "Quin equipament tenen les habitacions?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les habitacions tenen bany amb assecador de cabells, telèfon, TV per satèl·lit i per cable, ràdio, wifi d'alta velocitat, minibar gratuït, c"
+    },
+    {
+     "q": "Teniu restaurant?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "L'hotel té el Café Varela, cafè històric madrileny des de 1884, amb cuina basada en la tradició gallega (verdures, carns, peixos i arrossos)"
+    },
+    {
+     "q": "Hi ha pàrquing?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Hi ha pàrquing al mateix hotel amb servei d'aparcacotxes; té cost per dia (consulta la tarifa). Reservant al seu web hi ha un 10% de descomp"
+    },
+    {
+     "q": "Teniu salons per a reunions?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Té salons a la planta baixa amb noms d'escriptors: Carrere, Unamuno i Machado, que junts formen el Salón Apolo de 127 m2. Disposen de wifi, "
+    },
+    {
+     "q": "Hi ha servei de bugaderia?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "La consergeria atén les 24 hores en castellà i en anglès. El servei d'habitacions atén de 7:00h a 23:00h. La bugaderia recull la roba de dil"
+    },
+    {
+     "q": "On és l'hotel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "És al carrer Preciados 37, cantonada amb la plaça de Santo Domingo, 28013 Madrid, a 5 minuts a peu de la Puerta del Sol. Les parades de metr"
+    },
+    {
+     "q": "Com hi arribo des de l'aeroport?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Segons la seva web, des de l'aeroport el taxi triga uns 25 minuts i el metro uns 45 minuts. En cotxe propi, la web descriu la ruta per la N-"
+    },
+    {
+     "q": "Quins avantatges té reservar al web?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "La seva web indica aquests avantatges en reservar-hi: minibar i wifi gratuïts, 10% de descompte al pàrquing, early check-in i late check-out"
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar al motor de reserves de l'hotel (botó Reservar) o al telèfon de reserves 914544400 i a preciadoshotel@preciadoshotel.com. Aque"
+    },
+    {
+     "q": "Quin és el telèfon?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telèfon (+34) 914544400; correu preciadoshotel@preciadoshotel.com; comercial: comercial@preciadoshotel.com."
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "El seu avís legal indica que la titularitat del lloc web és d'HOPREVIP, S.L. (NIF B82978172)."
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 914 544 400 · preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar al motor de reserves de l'hotel (botó Reservar) o al telèfon de reserves 914544400 i a preciadoshotel@preciadoshotel.com. Aque"
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 914 544 400 · preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "Hi ha piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 914 544 400 · preciadoshotel@preciadoshotel.com."
+    }
+   ],
+   "chips": [
+    "Quines habitacions té?",
+    "Hi ha pàrquing?",
+    "On és?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "room0_n",
+    "room1_n"
+   ],
+   "chat": [
+    {
+     "q": "What rooms does it have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Its website lists eight types: Skyline (two rooms of 40 m2 and a 28 m2 terrace), Corner Junior Suite (38 m²), Premium Plus with balcony (32 "
+    },
+    {
+     "q": "What equipment do the rooms have?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "The rooms have a bathroom with hairdryer, telephone, satellite and cable TV, radio, high-speed wifi, a free minibar, air conditioning and a "
+    },
+    {
+     "q": "Do you have a restaurant?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "The hotel has Café Varela, a historic Madrid café since 1884, with cooking based on Galician tradition (vegetables, meat, fish and rice dish"
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "There is on-site parking with valet service; it is charged per day (ask for the rate). Booking on its website gives a 10% discount on parkin"
+    },
+    {
+     "q": "Do you have meeting rooms?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "It has ground-floor rooms named after writers: Carrere, Unamuno and Machado, which together form the 127 m2 Salón Apolo. They have wifi, a p"
+    },
+    {
+     "q": "Is there a laundry service?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "The concierge is available 24 hours in Spanish and English. Room service runs from 7:00h to 23:00h. The laundry collects clothes Monday to S"
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It is at Calle Preciados 37, on the corner of Plaza de Santo Domingo, 28013 Madrid, 5 minutes' walk from Puerta del Sol. Callao and Santo Do"
+    },
+    {
+     "q": "How do I get there from the airport?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "According to its website, from the airport a taxi takes about 25 minutes and the metro about 45 minutes. By car, the website describes the r"
+    },
+    {
+     "q": "What are the advantages of booking on the website?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Its website lists these advantages when booking there: free minibar and wifi, 10% off parking, early check-in and late check-out subject to "
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book through the hotel's booking engine (Book button) or via the reservations phone 914544400 and preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "What is the phone number?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone (+34) 914544400; email preciadoshotel@preciadoshotel.com; sales: comercial@preciadoshotel.com."
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Its legal notice says the website is owned by HOPREVIP, S.L. (NIF B82978172)."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 914 544 400 · preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book through the hotel's booking engine (Book button) or via the reservations phone 914544400 and preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 914 544 400 · preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "Is there a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 914 544 400 · preciadoshotel@preciadoshotel.com."
+    }
+   ],
+   "chips": [
+    "What rooms does it have?",
+    "Is there parking?",
+    "Where is it?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "room0_n",
+    "room1_n"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Son site présente huit types : Skyline (deux pièces de 40 m2 et terrasse de 28 m2), Corner Junior Suite (38 m²), Premium Plus avec balcon (3"
+    },
+    {
+     "q": "Quel équipement ont les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les chambres disposent d'une salle de bain avec sèche-cheveux, téléphone, TV satellite et câble, radio, wifi haut débit, minibar gratuit, cl"
+    },
+    {
+     "q": "Avez-vous un restaurant ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "L'hôtel abrite le Café Varela, café historique madrilène depuis 1884, à la cuisine de tradition galicienne (légumes, viandes, poissons et ri"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Il y a un parking dans l'hôtel avec voiturier ; il est payant à la journée (renseignez-vous sur le tarif). En réservant sur son site, le par"
+    },
+    {
+     "q": "Avez-vous des salles de réunion ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Il dispose de salles au rez-de-chaussée portant des noms d'écrivains : Carrere, Unamuno et Machado, qui forment ensemble le Salón Apolo de 1"
+    },
+    {
+     "q": "Y a-t-il un service de blanchisserie ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "La conciergerie est disponible 24 heures en espagnol et en anglais. Le service en chambre fonctionne de 7:00h à 23:00h. La blanchisserie ram"
+    },
+    {
+     "q": "Où est l'hôtel ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Il se trouve au 37 calle Preciados, à l'angle de la place de Santo Domingo, 28013 Madrid, à 5 minutes à pied de la Puerta del Sol. Les stati"
+    },
+    {
+     "q": "Comment venir depuis l'aéroport ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Selon son site, depuis l'aéroport le taxi met environ 25 minutes et le métro environ 45 minutes. En voiture, le site décrit l'itinéraire par"
+    },
+    {
+     "q": "Quels avantages à réserver sur le site ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Son site indique ces avantages en y réservant : minibar et wifi gratuits, 10% de réduction sur le parking, early check-in et late check-out "
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur le moteur de réservation de l'hôtel (bouton Réserver) ou au téléphone des réservations 914544400 et à preciadoshote"
+    },
+    {
+     "q": "Quel est le téléphone ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone (+34) 914544400 ; e-mail preciadoshotel@preciadoshotel.com ; commercial : comercial@preciadoshotel.com."
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sa mention légale indique que le site appartient à HOPREVIP, S.L. (NIF B82978172)."
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 914 544 400 · preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur le moteur de réservation de l'hôtel (bouton Réserver) ou au téléphone des réservations 914544400 et à preciadoshote"
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 914 544 400 · preciadoshotel@preciadoshotel.com."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 914 544 400 · preciadoshotel@preciadoshotel.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres a-t-il ?",
+    "Y a-t-il un parking ?",
+    "Où est-il ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
