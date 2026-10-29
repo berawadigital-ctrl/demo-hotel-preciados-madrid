@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://preciadoshotel.com/",
+ "read_at": "2026-10-29T07:45:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://preciadoshotel.com/",
+   "sha256": "0b2584a74e20dd5dd9ee3cfbada785587fb0dc423ec99dfeb99e0236bb1affb3",
+   "chars": 10840
+  },
+  {
+   "url": "https://preciadoshotel.com/aviso-legal/",
+   "sha256": "7423e605ade9a85348e0b1c895662deb28b08d35da23d49e529618822c568d36",
+   "chars": 14154
+  },
+  {
+   "url": "https://preciadoshotel.com/el-restaurante/",
+   "sha256": "f6a24035c2af20bd740a02f8dce10ab63ae42f7c7f54ee16c23afc2473edcb92",
+   "chars": 2230
+  },
+  {
+   "url": "https://preciadoshotel.com/habitacion/skyline/",
+   "sha256": "17cde67855f19468bbadff6367a4d4b660f9dd07b175c7f3d40246affa98f088",
+   "chars": 2009
+  },
+  {
+   "url": "https://preciadoshotel.com/habitaciones/",
+   "sha256": "ecf087e02d8ef44fe88b01ff12877515f7f6cc023db41f977bfe326357cf11f5",
+   "chars": 3568
+  },
+  {
+   "url": "https://preciadoshotel.com/localizacion/",
+   "sha256": "a06e08392dc63b9576a5a19125eaa4c816f0baebea90f39543d8d99d28c05fe3",
+   "chars": 2699
+  },
+  {
+   "url": "https://preciadoshotel.com/salones/",
+   "sha256": "daabeab54dd402e0a897eedaa60909a7ea226c041cef26f1860027ebc78eff74",
+   "chars": 3727
+  },
+  {
+   "url": "https://preciadoshotel.com/servicios/",
+   "sha256": "982460e1422601c36b2b7bcf43ce2cbc39c733d2295b7fbe83d95200de13f9d8",
+   "chars": 2001
+  }
+ ],
+ "other_pages_read": [
+  "https://preciadoshotel.com",
+  "https://preciadoshotel.com/contacto/",
+  "https://preciadoshotel.com/de/",
+  "https://preciadoshotel.com/en/",
+  "https://preciadoshotel.com/fr/",
+  "https://preciadoshotel.com/galeria/",
+  "https://preciadoshotel.com/habitacion/corner-junior-suite/",
+  "https://preciadoshotel.com/habitacion/habitacion-penthouse-with-terrace/",
+  "https://preciadoshotel.com/habitacion/habitacion-premium-con-balcon/",
+  "https://preciadoshotel.com/habitacion/habitacion-premium-plus-con-balcon/",
+  "https://preciadoshotel.com/it/",
+  "https://preciadoshotel.com/ru/",
+  "https://preciadoshotel.com/zh-hans/"
+ ]
+}
