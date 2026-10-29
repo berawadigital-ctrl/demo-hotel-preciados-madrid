@@ -1,0 +1,68 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-preciados-madrid",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T07:50:00+01:00",
+ "updated_at": "2026-10-29T07:50:00+01:00",
+ "business": {
+  "name": "Hotel Preciados",
+  "legal_name": "HOPREVIP, S.L.",
+  "registry_ids": [
+   "NIF B82978172"
+  ],
+  "url": "https://preciadoshotel.com/",
+  "domain": "preciadoshotel.com",
+  "municipality": "Madrid",
+  "province": "Madrid",
+  "address": "Calle de Preciados 37 · 28013 Madrid",
+  "phones": [
+   "914 544 400"
+  ],
+  "emails": [
+   "preciadoshotel@preciadoshotel.com"
+  ],
+  "sector": "hotel de cuatro estrellas en un edificio del siglo XIX"
+ },
+ "rating": {
+  "value": 4.5,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Preciados+Madrid/@40.4196938,-3.7075046,17z/data=!3m1!5s0xd42287c70eccfbb:0xa1d7ad90266a4607!4m9!3m8!1s0xd42287c706f25bf:0x37626adc0efde4cf!5m2!4m1!1i2!8m2!3d40.4196938!4d-3.7075046!16s%2Fg%2F11b6gcz6fy",
+  "date": "2026-10-29T06:50:43+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://preciadoshotel.com/bookingstep1.html",
+   "ca": "https://preciadoshotel.com/bookingstep1.html",
+   "en": "https://preciadoshotel.com/bookingstep1.html",
+   "fr": "https://preciadoshotel.com/bookingstep1.html"
+  },
+  "note": "Las reservas van al motor de reservas del propio hotel (preciadoshotel.com/bookingstep1.html, pagina del propio dominio que carga el componente de tarifas de Mirai del hotel, data-mirai-id 43120423, el mismo motor de los botones RESERVAR de su web); la demo no construye ningun motor."
+ },
+ "audit_original": {
+  "url": "https://preciadoshotel.com/",
+  "date": "2026-10-29T07:40:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
